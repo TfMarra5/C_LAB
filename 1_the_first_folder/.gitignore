@@ -1,0 +1,11 @@
+*.exe
+*.o
+*.obj
+*.out
+*.pdb
+*.ilk
+*.pptx
+programa
+build/
+.vs/
+.DS_Store
