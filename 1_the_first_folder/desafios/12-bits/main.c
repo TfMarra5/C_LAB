@@ -2,6 +2,14 @@
 
 int main(void)
 {
-    /* TODO: implemente o desafio descrito no README.md desta pasta. */
+    unsigned int a = 5u;
+    unsigned int b = 6u;
+
+    printf("%u\n", a & b);
+    printf("%u\n", a | b);
+    printf("%u\n", a ^ b);
+    printf("%u\n", a << 1);
+    printf("%u\n", a >> 1);
+    printf("%u\n", (~a)&255u);
     return 0;
 }
